@@ -1,0 +1,46 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="calculator-area">
+        <div class="item">
+            <div class="text">
+                <h2>#Calculator</h2>
+            </div>
+            <div id="total-calculator">
+                <input type="text" name="" id="display" >
+            </div>
+            <div class="numbers">
+                <div class="btn-prent">
+                    <button id="item1" onclick="appendToDisplay('7')" class="calculators">7</button>
+                    <button id="item2" onclick="appendToDisplay('8')" class="calculators">8</button>
+                    <button id="item3" onclick="appendToDisplay('9')" class="calculators">9</button>
+                    <button id="item4" onclick="appendToDisplay('+')" class="calculators">+</button>
+                    <button id="item5" onclick="appendToDisplay('4')" class="calculators">4</button>
+                    <button id="item6" onclick="appendToDisplay('5')" class="calculators">5</button>
+                    <button id="item7" onclick="appendToDisplay('6')" class="calculators">6</button>
+                    <button id="item8" onclick="appendToDisplay('-')" class="calculators">-</button>
+                    <button id="item9" onclick="appendToDisplay('1')" class="calculators">1</button>
+                    <button id="item10" onclick="appendToDisplay('2')" class="calculators">2</button>
+                    <button id="item11" onclick="appendToDisplay('3')" class="calculators">3</button>
+                    <button id="item12" onclick="appendToDisplay('*')" class="calculators">*</button>
+                    <button id="item13" onclick="chairDisplay()" class="calculators">c</button>
+                    <button id="item14" onclick="totalResult()" class="calculators">=</button>
+                    <button id="item15" onclick="appendToDisplay('.')" class="calculators">.</button>
+                    <button id="itme16" onclick="appendToDisplay('/')" class="calculators">/</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+    
+    <script src="main.js"></script>
+    
+</body>        
+</html>
